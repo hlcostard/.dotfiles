@@ -54,9 +54,7 @@ require('rose-pine').setup({
 })
 
 function ColorMyPencils()
---vim.cmd.colorscheme('codedark')
   vim.cmd.colorscheme('rose-pine')
 end
 
 ColorMyPencils()
-

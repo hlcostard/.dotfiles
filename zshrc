@@ -99,9 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-# Starship 
-eval "$(starship init zsh)"
 
 #fix nvim not working
 emulate sh -c 'source /etc/profile.d/apps-bin-path.sh'
@@ -114,3 +111,9 @@ alias lld="eza -1 --icons --only-dirs"
 # set up Go lang path #
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+# Turso
+export PATH="/home/hlcostard/.turso:$PATH"
+
+# fly.io
+export PATH="/home/hlcostard/.fly/bin:$PATH"
